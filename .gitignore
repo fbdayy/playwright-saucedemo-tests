@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Playwright artifacts
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+playwright/.auth/
+*.trace.zip
+
+# Build output
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor & OS
+.DS_Store
+.vscode/
+.idea/
